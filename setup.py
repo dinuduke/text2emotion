@@ -30,6 +30,6 @@ setup(
         "Programming Language :: Python :: 3.8"
     ],
     packages=find_packages(),
-    install_requires=["nltk", "emoji>=0.6.0"],
+    install_requires=["nltk", "emoji~=1.6.3"],
     include_package_data=True
 )
